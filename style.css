@@ -54,6 +54,8 @@ h1{
     font-weight: 700;
     font-size: 64px;
     color: #FFFFFF;
+    margin-top: 28px;
+    margin-bottom: 28px;
 }
 
 .container{
@@ -79,5 +81,43 @@ h1{
 
 .getting{
     font-weight: 600;
+    font-size: 16px;
     color: #098A5B;
+    border: 1px solid #098A5B;
+    width: 193px;
+    height: 73px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-div{
+    margin-left: 176px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+.img-box{
+    padding-top: 26px;
+    padding-left: 14px;
+}
+
+.h2-box{
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    padding-left: 14px;
+    padding-top: 15px;
+}
+
+.p-box{
+    padding-left: 14px;
+    padding-top: 15px;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-size: 13px;
+}
+
+.line{
+    padding-left: 14px;
 }
