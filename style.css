@@ -8,6 +8,7 @@
 body{
     width: 100vw;
     height: 100vh;
+    overflow-x: hidden;
 }
 
 header{
@@ -51,7 +52,7 @@ a{
     color: #098A5B;
 }
 
-h1{
+.header_h1{
     font-weight: 700;
     font-size: 64px;
     color: #FFFFFF;
@@ -121,4 +122,134 @@ h1{
 
 .line{
     padding-left: 14px;
+}
+
+.section_services{
+    width: 100vw;
+    background-color: #101017;
+}
+
+.services_h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.services_h3{
+    color: #098A5B;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.div-text-services{
+    padding-left: 176px;
+    padding-top: 123px;
+}
+
+.container_posts{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-top: 42px;
+}
+
+.inside_posts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
+}
+
+.inside_one, .inside_two{
+    width: 341px;
+    height: 302px;
+    background-color: #313131;
+}
+
+.img-inside{
+    padding-left: 28px;
+    padding-top: 50px;
+}
+
+.inside_one > h2{
+    padding-top: 40px;
+    padding-left: 28px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.inside_one > p{
+    padding-top: 19px;
+    padding-left: 28px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.inside_two > h2{
+    padding-top: 40px;
+    padding-left: 28px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.inside_two > p{
+    padding-top: 19px;
+    padding-left: 28px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.inside_three{
+    background-color: #098A5B;
+    width: 341px;
+    height: 302px;
+}
+
+.inside_three > h2{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 29px;
+    padding-top: 123px;
+    padding-left: 19px;
+}
+
+.inside_three > p{
+    padding-top: 19px;
+    padding-left: 19px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.inside_thre{
+    width: 341px;
+    height: 302px;
+    background-color: #313131;
+}
+
+.inside_thre > h2{
+    padding-top: 40px;
+    padding-left: 28px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 29px;
+}
+
+.inside_thre > p{
+    padding-top: 19px;
+    padding-left: 28px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.down-posts{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 32px;
 }
