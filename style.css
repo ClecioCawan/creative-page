@@ -768,6 +768,7 @@ footer{
     background-color: #101017;
     display: flex;
     flex-direction: row;
+    gap: 800px;
 }
 
 footer > h3{
@@ -783,6 +784,8 @@ footer > h3{
     display: flex;
     flex-direction: row;
     justify-content: right;
+    gap: 20px;
+    padding-top: 26px;
 }
 
 .social img{
