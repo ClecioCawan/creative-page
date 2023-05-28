@@ -496,5 +496,81 @@ a{
     padding-bottom: 80px;
 }
 
+.section_testimonials{
+    background-color: #313131;
+    width: 100vw;
+}
 
+.section_testimonials_text{
+    display: flex;
+    flex-direction: column;
+    padding-left: 176px;
+    padding-top: 60px;
+    padding-bottom: 75px;
+    gap: 9px;
+}
 
+.section_testimonials_text > h1{
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+
+.section_testimonials_text > h3{
+    font-weight: 600;
+    font-size: 15px;
+    color: #098A5B;
+}
+
+.container_testimonials{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.perfil_one{
+    display: flex;
+    flex-direction: column;
+    background-color: #101017;
+    border: 1px solid #777777;
+    width: 371px;
+    height: 340px;
+    gap: 70px;
+}
+
+.aspas_img{
+    width: 66.01px;
+    height: 46.34px;
+    margin: auto;
+    padding-top: 44px;
+    padding-bottom: 31px;
+}
+
+.perfil_one > p{
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+    line-height: 16px;
+    word-break: break-word;
+}
+
+.img_estrelas{
+    width: 136px;
+    height: 16px;
+    margin: auto;
+}
+
+.img_perfil{
+    width: 62px;
+    height: 62px;
+    transform: translateY(-87%);
+    margin: auto;
+}
+
+.line_img_4{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 55px;
+}
