@@ -681,3 +681,111 @@ a{
     justify-content: center;
     margin: auto;
 }
+
+.logo-img{
+    width: 60px;
+    height: 60px;
+}
+
+.logo-img img{
+    width: 60px;
+    height: 60px;
+}
+
+.container_logo{
+    display: flex;
+    flex-direction: row;
+    padding-top: 148px;
+    padding-bottom: 60px;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+.contact_us{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+    padding-left: 273px;
+    padding-right: 138px;
+}
+
+.telefone > img{
+    width: 13px;
+    height: 17px;
+}
+
+.our_services{
+    padding-right: 138px;
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.telefone{
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.about_us{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.contact_us > h1{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.about_us > h1{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.our_services > h1{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.telefone > h3{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.our_services > h3{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.about_us > h3{
+    font-weight: 400;
+    font-size: 15px;
+}
+
+footer{
+    border-top: 2px solid #098A5B;
+    background-color: #101017;
+    display: flex;
+    flex-direction: row;
+}
+
+footer > h3{
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+    padding-left: 175px;
+    padding-bottom: 50px;
+    padding-top: 26px;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+.social img{
+    width: 30px;
+    height: 30px;
+}
