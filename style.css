@@ -440,7 +440,6 @@ a{
     display: flex;
     flex-direction: row;
     padding-top: 50px;
-    padding-bottom: 230px;
     text-align: center;
     justify-content: center;
     gap: 28px;
@@ -491,6 +490,11 @@ a{
     gap: 20px;
 }
 
+.line_img_3{
+    text-align: center;
+    padding-top: 91px;
+    padding-bottom: 80px;
+}
 
 
 
