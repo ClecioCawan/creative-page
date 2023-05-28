@@ -317,3 +317,19 @@ a{
     padding-top: 50px;
     padding-bottom: 40px;
 }
+
+.img_solo{
+    position: relative;
+}
+
+.legenda_solo{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+
+
+
+
+
+
