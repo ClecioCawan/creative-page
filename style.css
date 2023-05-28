@@ -437,11 +437,58 @@ a{
 /*divs dos textos da section 4*/
 
 .div_text_row{ 
-    
+    display: flex;
+    flex-direction: row;
+    padding-top: 50px;
+    padding-bottom: 230px;
+    text-align: center;
+    justify-content: center;
+    gap: 28px;
 }
 
-.text_1 , .text_2 , .text_3{
+.text_1, .text_2, .text_3{
+    width: 337px;
+}
+
+.text_1 > h1{
     color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text_1 > p{
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 500
+}
+
+.text_2 > h1{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text_2 > p{
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 500
+}
+
+.text_3 > h1{
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.text_3 > p{
+    font-size: 15px;
+    color: #FFFFFF;
+    font-weight: 500
+}
+.text_1, .text_2 , .text_3{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 
