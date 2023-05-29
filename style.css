@@ -23,6 +23,22 @@ nav{
     gap: 32px;
 }
 
+a:hover{
+    color: #098A5B;
+}
+
+a:not(:hover){
+    color: #FFFFFF;
+}
+
+button{
+    display: none;
+}
+
+.overlay{
+    display: none;
+}
+
 
 .div-navbar{
     display: flex;
@@ -801,6 +817,71 @@ footer > h3{
     nav{
         display: none;
     }
+
+    button{
+        display: block;
+    }
+
+
+    .overlay{
+        display: block;
+        height: 100%;
+        width: 0;
+        background-color: #777777;
+        z-index: 9;
+        position: fixed;
+        left: 0;
+        top: 0;
+        overflow-x: hidden;
+        transition: all 0.5s;
+    }
+
+    .overlay-content{
+        position: relative;
+        top: 25%;
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .overlay a{
+        padding: 8px;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+        text-decoration: none;
+        display: block;
+        transition: 0.5s ease;
+    }
+
+    .overlay-content > a:hover{
+        color: #098A5B;
+    }
+
+    .overlay-content > a:not(:hover){
+        color: white;
+    }
+
+    .overlay .closebtn{
+        position: absolute;
+        top: 25px;
+        right: 45px;
+        font-size: 60px;
+    }
+
+    .nav-button{
+        border: 0;
+        border-radius: 4px;
+        padding: 8px;
+        background-color: #098A5B;
+        margin: 8px;
+        cursor: pointer;
+    }
+
+    .nav-button i{
+        color: white;
+    }
+
 
     .container{
         display: flex;
