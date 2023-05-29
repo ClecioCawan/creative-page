@@ -792,3 +792,305 @@ footer > h3{
     width: 30px;
     height: 30px;
 }
+
+@media screen and (max-width: 768px){
+    body{
+        overflow-x: hidden;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .text-div{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .getting{
+        font-weight: 600;
+        font-size: 16px;
+        color: #098A5B;
+        border: 1px solid #098A5B;
+        width: 193px;
+        height: 73px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .div-one, .div-three{
+        display: none;
+    }
+
+    .div-text-services{
+        padding-top: 63px;
+        text-align: center;
+        padding-left: 0px;
+    }
+
+    .container_posts{
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        padding-top: 42px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inside_posts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .down-posts{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 32px;
+    }
+
+    .products_text{
+        display: flex;
+        flex-direction: column;
+        padding-top: 80px;
+        gap: 42px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .section_about_text{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        gap: 9px;
+        padding-top: 50px;
+        padding-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container_about{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .img_solo{
+        display: none;
+    }
+
+    .container_duo{
+        display: flex;
+        flex-direction: column;
+        gap: 34px;
+        width: 50vw;
+        justify-content: center;
+        align-items: center;
+      }
+    
+    .img_duo{
+        position: initial;
+        width: initial;
+    }
+
+    .img_duo > img{
+        width: 90vw;
+    }
+
+    .legenda_duo{
+        display: none;
+    }
+
+    .img-duo_one{
+        position: initial;
+        width: initial;        
+    }
+
+    .img-duo_one > img{
+        width: 90vw;
+    }
+
+    .legenda_duo_one{
+        display: none;
+    }
+
+    .div_text_row{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        text-align: center;
+        justify-content: center;
+        gap: 28px;
+        align-items: center;
+      }
+
+    .img-linha{
+        display: none;
+    }
+
+    .section_testimonials_text{
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-top: 60px;
+        padding-bottom: 75px;
+        gap: 9px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .container_testimonials{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .perfil_one{
+        display: flex;
+        flex-direction: column;
+        background-color: #101017;
+        border: 1px solid #777777;
+        width: 371px;
+        height: 340px;
+        gap: 70px;
+        margin: auto;
+    }
+
+    .legend_latest{
+        padding-top: 87px;
+        padding-bottom: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 9px;
+    }
+
+    .latest_div-1 {
+        width: 90vw;
+        height: 610px;
+        border: 2px solid #098A5B;
+    }
+
+    .latest_div-1 > img{
+        width: 100%;
+    }
+
+
+    .final_latest_text > h2{
+        font-weight: 700;
+        font-size: 34px;
+        color: #FFFFFF;
+    }
+
+    .final_latest_text > h4 {
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        width: 193px;
+        height: 59px;
+        border: 2px solid #098A5B;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+      }
+
+      .container_logo {
+        display: flex;
+        flex-direction: column;
+        padding-top: 148px;
+        padding-bottom: 60px;
+        color: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .contact_us {
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        padding-top: 27px;
+        padding-bottom: 37px;
+        padding-left: 0px;
+        padding-right: 0px;
+      }
+
+      .our_services {
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        padding-bottom: 39px;
+        padding-right: 0px;
+      }
+
+
+      .about_us {
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+      }
+
+      footer {
+        border-top: 2px solid #098A5B;
+        background-color: #101017;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+      }
+
+      footer > h3 {
+        font-weight: 400;
+        font-size: 15px;
+        color: #FFFFFF;
+        padding-left: 0px;
+        padding-bottom: 50px;
+        padding-top: 26px;
+        text-align: center;
+        margin: auto;
+      }
+
+      .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        gap: 20px;
+        padding-top: 0px;
+      }
+}
